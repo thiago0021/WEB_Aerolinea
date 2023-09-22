@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    background-color: #07cdff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    color: azure;
+    margin: 0 30px;
+    padding: 5px;
+    border-radius: 30px;
+    
+}
+
+form{
+    margin-top: 15px;
+}
+
+input{
+    border: none;
+    border-radius: 8px;
+    padding: 5px;
+    width: 200px;
+}
+
+button{
+    border: none;
+    padding: 5px;
+    border-radius: 8px;
+
+
+}
+
+nav a:hover{
+    background-color: #0672cf; 
+}
+
+.encabezado1{
+    background-image: url(img/españa.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.medio{
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.lista1{
+    background-color: #e2e2e2;
+    border-radius: 20px;
+    text-align: center;
+    
+}
+
+.lista1 li :hover{
+    background-color: rgb(116, 112, 112);
+    border-radius: 5px;
+}
+
+.lista2{
+    background-color: #e2e2e2;
+    border-radius: 20px;
+    text-align: center;
+    
+}
+
+.lista2 li :hover{
+    background-color: rgb(116, 112, 112);
+    border-radius: 5px;
+}
+
+.bajo footer{
+    display: grid;
+    background: #002236;
+    
+}
+
+.bajo div{
+    grid-template-rows: repeat(3 200px);
+}
+
+footer{
+    text-align: center;
+    padding: 30px 0;
+    color: white;
+}
+
+.photos{
+    display: grid;
+    max-width: 1440px;
+    width: 90%;
+    height: 900px;
+    /***********************/    
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: auto;
+    grid-gap: 50px;
+    /************************/
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+
+}
+
+.foto1{
+    background-image: url(img/aereo.jpg);
+    background-repeat: no-repeat;
+    background-size: 500px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+   
+}
+
+
+
+.b2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    font-weight: bolder;
+   
+    
+}
+
+.b3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    font-weight: bolder;
+    
+}
+
+.foto2{
+    background-image: url(img/plane.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 500px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    
+}
+
+
+
+
